@@ -1,0 +1,31 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"folder_exclude_patterns":
+	[
+		"cache",
+		"build/assets",
+		".venv",
+		"coverage",
+		"node_modules",
+		"dist",
+		"popsicle-build",
+		"log",
+		"doc",
+		".git",
+		".jest-cache",
+		"build",
+		"swagger.json",
+		"public/datadog_synthetics_totp.js",
+		"public/market_area_map.json",
+		"spec/cassettes"
+	],
+	"font_size": 14,
+	"git_gutter_show_line_annotation": false,
+	"ignored_packages":
+	[
+		"Package Control",
+		"Vintage",
+	],
+	"theme": "Default.sublime-theme",
+	"index_files": false,
+}
