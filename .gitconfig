@@ -1,0 +1,18 @@
+[user]
+	email = leanne@bruton.local
+	name = Leanne Bruton
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	last = log -1 HEAD
+	pushfl = push --force-with-lease
+	unstage = reset HEAD
+	diffs = diff --staged
+	brl = branch -l
+	pushup = push -u
+[core]
+	excludesfile = ~/.gitignore_global
+[push]
+	default = current
