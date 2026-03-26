@@ -2,6 +2,7 @@ alias gs='git status'
 alias gp='git pull'
 alias gd='git diff'
 alias gds='git diff --staged'
+alias gdstat='git diff --shortstat'
 
 alias ga='git add'
 alias ga.='git add .'
