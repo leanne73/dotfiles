@@ -11,6 +11,8 @@ if [ -f ~/dotfiles/local_aliases.sh ]; then
     . ~/dotfiles/local_aliases.sh
 fi
 
+[ -f ~/dotfiles/claude.md ] && ln -sf ~/dotfiles/claude.md ~/.claude/CLAUDE.md
+
 function ssh-up {
   echo 'Starting ssh-agent, if not already running'
   if [ -z $SSH_AGENT_PID ]; then
